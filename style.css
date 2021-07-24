@@ -1,0 +1,118 @@
+.android{
+    background-image: linear-gradient(to right, #DF9B6E , white, #9EB5BE);
+    width:400px;
+    height: 400px;
+    position:relative;
+    margin:auto;
+    top:150px;
+    right:0;
+    bottom:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    
+  }
+  .head{
+    width:120px;
+    height:170px;
+    background: #85C606;
+    position: absolute;
+    top: 35px;
+    border-radius:60px 60px 10px 10px;
+  }
+  .neck{
+    width:120px;
+    height:7px;
+    background-color:white;
+    position:absolute;
+    top:55px;
+  }
+  .head::before{
+    content:'';
+    position:absolute;
+    width:15px;
+    height:15px;
+    background: white;
+    border-radius: 50%;
+    top: 20px;
+    left:30px;
+    
+  }
+  .head::after{
+    content:'';
+    position:absolute;
+    width:15px;
+    height:15px;
+    background: white;
+    border-radius: 50%;
+    top: 20px;
+    right:30px;
+  }
+  
+  .earl{
+    position:absolute;
+    width:4px;
+    height:30px;
+    background: #85C606;
+    left:165px;
+    top:17px;
+    transform:rotate(-45deg);
+    border-radius: 5px 5px 0 0;
+      
+  }
+  
+  .earr{
+    position:absolute;
+    width:4px;
+    height:30px;
+    background: #85C606;
+    right:165px;
+    top:17px;
+    transform:rotate(45deg);
+    border-radius: 5px 5px 0 0;  
+  }
+  .handl{
+    position:absolute;
+    width:23px;
+    height:85px;
+    background: #85C606;
+    top:95px;
+    left:111px;
+    border-radius: 10px;
+  }
+  
+  .handr{
+    position:absolute;
+    width:23px;
+    height:85px;
+    background: #85C606;
+    top:95px;
+    right:111px;
+    border-radius: 10px;
+  }
+  .legl{
+    position:absolute;
+    width:23px;
+    height:50px;
+    background: #85C606;
+    top:200px;
+    left:165px;
+    border-radius:0 0 10px 10px;
+   
+  }
+  .legr{
+    position:absolute;
+    width:23px;
+    height:50px;
+    background: #85C606;
+    top:200px;
+    right:165px;
+    border-radius:0 0 10px 10px;
+  }
+  h1{
+    position: absolute;
+    color: #85C606;
+    top: 270px;
+    border-bottom:2px solid #86C606;
+    font-size: 40px;
+    }
